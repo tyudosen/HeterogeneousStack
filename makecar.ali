@@ -1,0 +1,87 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U makecar%b		makecar.adb		2628861f NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+W hetro_stack%s		hetro_stack.adb		hetro_stack.ali
+
+U makecar%s		makecar.ads		afcd8262 EE NE OO PK IL
+W hetro_stack%s		hetro_stack.adb		hetro_stack.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiinau.ads		20180111085525 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20180111085525 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D hetro_stack.ads	20191029211439 8aadbe2e hetro_stack%s
+D hetro_stack.adb	20191029210338 96032a58 hetro_stack%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D makecar.ads		20191029185224 25603c4c makecar%s
+D makecar.adb		20191029185514 01f8b727 makecar%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r22 4r24
+X 6 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 1r26 4r28
+166U14*New_Line 16|18s53 30s57 36s52
+208U14*Put 16|24s13
+242U14*Put 16|18s9 30s9 35s9 35s47 36s9
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 16|4r36
+66U14*Put 16|18s34[4] 35s25[4]
+X 11 hetro_stack.ads
+3k9*hetro_stack 32e16 15|1w6 16|2w6
+X 15 makecar.ads
+2K9*makecar 24l5 24e12 16|3b14 38l5 38t12
+3A10*CarString<string>(character)<integer> 8r12 13r53 17r39 16|11r53 21r39
+6R10*Car 9e15 11r43 13r39 15r38 19r34 22r40 16|6r43 11r39 16r38 28r34 33r40
+7i5*NumDoors{integer} 16|8m14 18r43 35r34
+8a5*Manf{3A10} 16|13m14 30r51 36r46
+11U15*AssignNumDoors 11=30 11>48 16|6b15 9l9 9t23
+11r30 aCar{6R10} 16|6b30 8m9
+11i48 Num{integer} 16|6b48 8r26
+13U15*AssignManf 13=26 13>44 16|11b15 14l9 14t19
+13r26 aCar{6R10} 16|11b26 13m9
+13a44 Manu{3A10} 16|11b44 13r22
+15U15*PrintNumDoors 15>29 16|16b15 19l9 19t22
+15r29 aCar{6R10} 16|16b29 18r38
+17U15*PrintCarString 17>30 16|21b15 26l9 26t23 30s31 36s26
+17a30 aCar{3A10} 16|21b30 24r17
+19U15*PrintManf 19>25 16|28b15 31l9 31t18
+19r25 aCar{6R10} 16|28b25 30r46
+22U15*IdentifyVehicle 22>31 16|33b15 37l9 37t24
+22r31 aCar{6R10} 16|33b31 35r29 36r41
+X 16 makecar.adb
+4K13 IIO[8|46] 4r61
+23i13 I{integer} 24r22
+

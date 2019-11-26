@@ -1,0 +1,148 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U driver%b		driver.adb		959926e9 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z ada.unchecked_deallocation%s
+W hetro_stack%s		hetro_stack.adb		hetro_stack.ali
+W hetro_stack_elems%s	hetro_stack_elems.adb	hetro_stack_elems.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-calend.ads		20180111085525 2d5f01d4 ada.calendar%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-finali.ads		20180111085525 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tienio.ads		20170908151217 fc618ae6 ada.text_io.enumeration_io%s
+D a-tiinau.ads		20180111085525 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20180111085525 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20170908151217 eff36322 ada.unchecked_deallocation%s
+D driver.adb		20191030134820 3f4aa365 driver%b
+D hetro_stack.ads	20191030134421 2dd406e9 hetro_stack%s
+D hetro_stack.adb	20191030134321 40aacc1c hetro_stack%b
+D hetro_stack_elems.ads	20191030123607 224531eb hetro_stack_elems%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-finmas.ads		20180111085525 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180111085525 4ff27390 system.finalization_root%s
+D s-memory.ads		20180111085525 597d6634 system.memory%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-pooglo.ads		20180111085525 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stalib.adb		20180111085525 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180111085525 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180111085525 aedef97e system.stream_attributes%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 4r6 4r24 6r20
+X 2 a-calend.ads
+36K13*Calendar 395e17 15|4w10 4r28
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r27 6r24
+166U14*New_Line 15|61s15 79s15 106s15
+263U14*Put_Line 15|60s3 62s3 65s3 78s3 80s3 83s2 105s3 107s3 112s3
+X 11 a-tiinio.ads
+46k21*Integer_IO 85e27 15|6r32
+66U14 Put 15|61s3[6] 79s3[6] 106s3[6]
+X 15 driver.adb
+5U11*driver 5b11 114l5 114t11
+6K9 IIO[11|46] 6r57
+10U13 CPrint 10b13 10>20 13l7 13t13 21r43
+10c20 Pt<18|13R10> 12r11
+15V12 Comp{boolean} 15b12 15>17 15>22 18l7 18t11 20r41
+15c17 Obj1<18|13R10> 17r20
+15c22 Obj2<18|13R10> 17r25
+20K11 SS[16|5] 20r52
+21U13 PrintAllList[16|20] 67s3 85s3 113s3
+23r3 VehicleStack{16|6R10[20]} 30m15 30r15 35m12 35r12 40m13 40r13 45m12
+. 45r12 50m12 50r12 55m13 55r13 59r21 67r16 72m32 72r32 77r21 85r16
+23r17 PlaneStack{16|6R10[20]} 31m15 31r15 90m13 90r13 95m13 95r13 100m13
+. 100r13 104r21 113r16
+24i3 Size{integer} 59m3 61r7 77m3 79r7 104m3 106r7
+25p3 CarObj{18|30P10} 34m3 35r33 39m3 40r34 44m3 45r33 49m3 50r33 54m3 55r34
+26p3 PlaneObj{18|43P10} 89m3 90r32 94m4 95r32 99m3 100r32
+27r3 CarRef{18|27R10} 71m3 72m46 72r46
+28p3 VPoint(18|13R10) 72m3
+X 16 hetro_stack.ads
+5k9*hetro_stack 15|2w6 20r21 16|35e16
+6R10 hetroStack 15|23r30[20]
+7P10 ItemPt(18|13R10) 15|35r26[20] 40r27[20] 45r26[20] 50r26[20] 55r27[20]
+. 90r25[20] 95r25[20] 100r25[20]
+12U15 SetHeadNode 15|30s3[20] 31s3[20]
+13U15 PushFront 15|40s3[20] 55s3[20] 90s3[20] 95s3[20] 100s3[20]
+14U15 PushRear 15|35s3[20] 45s3[20] 50s3[20]
+15V14 StackSize{integer} 15|59s11[20] 77s11[20] 104s11[20]
+16V14 RemoveSpecificNode{7P10[15|20]} 15|72s13[20]
+20u15 PrintList 15|21r33[20]
+X 18 hetro_stack_elems.ads
+3K9*hetro_stack_elems 15|3w6 3r29 18|52e22
+5A10*CarString<string>(character)<integer>
+6A10*PlaneString<string>(character)<integer>
+8n23*Car{8E10} 15|34r40 39r40 44r40 49r40 54r40 71r36
+8n28*Plane{8E10} 15|89r44 94r45 99r44
+13R10*Vehicle 15|10r24 15r32 20r33 28r19 18|16e15
+14e9*VehicleType{8E10} 15|34m25 39m25 44m25 49m25 54m25 71m21 89m29 94m30
+. 99m29
+15i9*NumOfDoors{integer} 15|34m45 39m45 44m45 49m45 54m45 71m41 89m51 94m52
+. 99m51
+22U15*Print 15|12R5
+23V14*Compare{boolean} 15|17R12
+27R10*CarRec<13R10> 15|27r19 34r17 39r17 44r17 49r17 54r17 71r13 18|29e15
+28a9*Manf{5A10} 15|34m62 39m62 44m62 49m62 54m62 71m58
+30P10*CarRecPtr(27R10) 15|25r11
+39R10*PlaneRec<13R10> 15|89r19 94r20 99r19 18|42e15
+40a9*Manf{6A10} 15|89m68 94m69 99m68
+41i9*NumOfEngines{integer} 15|89m88 94m89 99m88
+43P10*PlaneRecPtr(39R10) 15|26r13
+X 21 system.ads
+67M9*Address
+X 27 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 34 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
